@@ -1,0 +1,9 @@
+{
+  "name": "wallaby-issue-1399",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "21.2.1"
+  }
+}
