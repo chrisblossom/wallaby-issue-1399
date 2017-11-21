@@ -9,6 +9,10 @@ module.exports = wallaby => {
                 pattern: 'src/**/__sandbox__/**/*',
                 instrument: false,
             },
+            {
+                pattern: 'src/**/__sandbox__/**/.*',
+                instrument: false,
+            },
             'src/**/*.js',
             'jest.config.js',
             '.env',
